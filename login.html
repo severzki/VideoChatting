@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style_signup_login.css" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
-    <title>WebVid - SignUp</title>
+    <title>WebVid - LogIn</title>
   </head>
   <body>
     <div class="header">
@@ -22,7 +22,7 @@
       </div>
     </div>
     <div class="content">
-      <h2>Sign Up</h2>
+      <h2>Log In</h2>
       <form action="">
         <div class="email_input">
           <input
@@ -44,19 +44,20 @@
             required
           />
         </div>
-        <div class="cnfpswd_input">
-          <input
-            type="password"
-            autocomplete="off"
-            id="cnf_pswd"
-            pattern="[\S]{8,}"
-            placeholder="Confirm Password"
-            required
-          />
-        </div>
-        <button type="submit" id="submit_btn" class="buttons">SIGN UP</button>
+        <a
+          href=""
+          style="
+            border: none;
+            padding: 0;
+            margin: 0;
+            font-size: 0.8em;
+            align-self: center;
+          "
+          >Forgot Password</a
+        >
+        <button type="submit" id="submit_btn" class="buttons">LOG IN</button>
         <h4>OR</h4>
-        <a href="login.html">Log In</a>
+        <a href="signup.html">Sign Up</a>
       </form>
     </div>
     <script src="script_signup.js"></script>
