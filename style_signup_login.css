@@ -37,7 +37,7 @@ body {
   margin: auto;
   text-align: center;
   margin-bottom: 40px;
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(63, 55, 55, 0.75);
   color: white;
   padding: 30px;
   border-radius: 40px;
@@ -69,14 +69,14 @@ form input {
 }
 
 form input:valid {
-  border-bottom: 1px solid yellow;
+  border-bottom: 1px solid greenyellow;
   background-color: transparent;
-  color: yellow;
+  color: greenyellow;
 }
 
 form:valid button:hover {
   color: black;
-  background-color: yellow;
+  background-color: greenyellow;
 }
 
 .buttons {
@@ -97,7 +97,7 @@ button {
   outline: none;
 }
 button:hover {
-  background-color: darkgray;
+  background-color: rgb(138, 138, 138);
 }
 
 a {
@@ -113,6 +113,6 @@ a {
 }
 
 a:hover {
-  color: yellow;
-  border: 1px solid yellow;
+  color: greenyellow;
+  border: 1px solid greenyellow;
 }
